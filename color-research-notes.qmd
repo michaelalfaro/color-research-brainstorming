@@ -33,7 +33,25 @@ Based on *Umbers (2012)*:
 
 ---
 
-# 2. The Dermal Chromatophore Unit (DCU)
+# 2. Case Study: Tarantula Blue (*Hsiung et al. 2015*)
+
+## The Evolutionary Paradox
+* **Convergent Evolution:** Blue color ($\lambda_{max} \approx 450 \text{ nm}$) evolved independently at least 8 times in tarantulas.
+* **Divergent Mechanisms:** Despite the identical color, the underlying nanostructures vary wildly (some use ordered 1D multilayers, others use amorphous quasi-ordered sponges).
+* **Implication:** This color is an evolutionary **"Attractor"** or optimum. Since tarantulas have poor color vision, this is likely driven by **Natural Selection** (camouflage or metabolic efficiency) rather than Sexual Selection.
+
+## The Mechanism of "Stable Blue"
+How do tarantulas achieve non-iridescent (stable) blue using structures that should be iridescent?
+
+1.  **Quasi-Order:** Some species use "spongy" chitin/air arrays with short-range order but no long-range lattice. This scatters blue in all directions (Isotropic).
+2.  **Geometric Scrambling (The "Hairy Mirror"):**
+    * Some species (e.g., *P. metallica*) use **1D Multilayer Reflectors**, which are normally highly iridescent (like a mirror).
+    * **The Trick:** These stacks are located inside cylindrical, curved hairs.
+    * **Result:** The curvature of the hair mixes reflections from all angles simultaneously. This averages out the iridescence, resulting in a static, pigment-like blue appearance despite the coherent mechanism.
+
+---
+
+# 3. The Dermal Chromatophore Unit (DCU)
 
 ## Definition
 A functional vertical stacking of cells in the dermis that acts as a biological "pixel." Defined formally by **Joseph Bagnara**.
@@ -54,7 +72,7 @@ $$\text{Blue Phenotype} = \text{Blue Structural Scatter} + \text{No Filter}$$
 
 ---
 
-# 3. Experimental Protocol: Imaging the DCU
+# 4. Experimental Protocol: Imaging the DCU
 
 **Goal:** Correlate microscopic DCU architecture with macroscopic reflectance spectra (Ultris X50).
 
@@ -86,7 +104,7 @@ $$S_{obs}(\lambda) \approx [(1 - I_{mask}) \cdot S_{irid}(\lambda)] \cdot (T_{ye
 
 ---
 
-# 4. Physics Deep Dive: The Sönke Johnsen Perspective
+# 5. Physics Deep Dive: The Sönke Johnsen Perspective
 
 ## Scattering vs. Absorption
 * **Absorption:** Photon energy matches a real state transition $\to$ Energy lost as heat.
@@ -101,7 +119,7 @@ Johnsen argues Prum's dichotomy (Incoherent vs. Coherent) is semantically flawed
 
 ---
 
-# 5. Advanced Optics: Velocity & Refractive Index
+# 6. Advanced Optics: Velocity & Refractive Index
 
 ## The Sommerfeld Precursor
 How light interacts with matter (The "Maternity Ward" Analogy).
@@ -125,7 +143,7 @@ $$c = a + b$$
 
 ---
 
-# 6. Sci-Fi Connections: Cixin Liu
+# 7. Sci-Fi Connections: Cixin Liu
 
 ## *The Three Body Problem* & *Ball Lightning*
 
@@ -135,3 +153,21 @@ $$c = a + b$$
 | **The Black Domain** | **Refractive Index** | Modifying the vacuum ($n$) to lower the speed of light ($c$) to 16.7 km/s, trapping light via "Slow Fog." |
 | **The Droplet** | **Strong Interaction** | Material held together by the strong nuclear force (ignoring electromagnetic repulsion). |
 | **Sophons** | **Entanglement** | Unfolded protons. *Scientific Error:* Liu uses entanglement for FTL communication (Signal Velocity $> c$), which violates the "Gold Paradox" rules. |
+
+---
+
+# References Cited
+
+**Primary Research (Uploaded):**
+
+* **Bagnara, J. T., Fernandez, P. J., & Fujii, R.** (2007). On the blue coloration of vertebrates. *Pigment Cell Research*, 20(1), 14–26.
+* **Hsiung, B.-K., Deheyn, D. D., Shawkey, M. D., & Blackledge, T. A.** (2015). Blue reflectance in tarantulas is evolutionarily conserved despite nanostructural diversity. *Science Advances*, 1(10), e1500709.
+* **Prum, R. O., & Torres, R. H.** (2003). A Fourier Tool for the Analysis of Coherent Light Scattering by Bio-Optical Nanostructures. *Integrative and Comparative Biology*, 43(4), 591–602.
+* **Umbers, K. D. L.** (2013). On the perception, production and function of blue colouration in animals. *Journal of Zoology*, 289(4), 229–242.
+* **Wasik, B. R., Liew, S. F., Lilien, D. A., Dinwiddie, A. J., Noh, H., Cao, H., & Monteiro, A.** (2014). Artificial selection for structural color on butterfly wings and comparison with natural evolution. *Proceedings of the National Academy of Sciences*, 111(33), 12109–12114.
+
+**Books & Conceptual References:**
+
+* **Johnsen, S.** (2011). *The Optics of Life: A Biologist's Guide to Light in Nature*. Princeton University Press.
+* **Liu, C.** (2004). *Ball Lightning* (Qiúzhuàng Shǎndiàn).
+* **Liu, C.** (2008). *The Three-Body Problem* (Sān Tǐ).
